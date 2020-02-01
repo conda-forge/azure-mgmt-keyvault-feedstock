@@ -1,5 +1,5 @@
 {% set name = "azure-mgmt-keyvault" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 4ad6294a19c97db05b754ec2308083f53cbd7a1219d0651dcc277b044989f114
+  sha256: 492256102c592407c9e55d39a2ca7af862526cf525fdac817221e500c5427bc6
 
 build:
   number: 0
