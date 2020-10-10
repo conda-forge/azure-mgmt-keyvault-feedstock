@@ -5,11 +5,13 @@ Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-keyvault-feedstock/blob/master/LICENSE.txt)
 
 Summary: Microsoft Azure Key Vault Management Client Library for Python
 
+Development: https://github.com/Azure/azure-sdk-for-python
 
+Documentation: https://docs.microsoft.com/python/api/overview/azure/key-vault
 
 Current build status
 ====================
