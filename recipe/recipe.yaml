@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-keyvault
-  version: 11.0.0
+  version: "14.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: fcfb1366852926f2a311e1bc6e6a786eb8a8a1fd46e6025d4c114ede2cb4642e
+  sha256: 799a7d572e7692fd3f8c56cf270efc54223f30c8435096e1d96be4f37faab8f5
 
 build:
   number: 0
